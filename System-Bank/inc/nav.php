@@ -31,7 +31,7 @@ $session=new Session;
 
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark" >
     <div class="container-fluid">
-    <a class="navbar-brand" href="#">BankSystem</a>
+    <a class="navbar-brand" href="index.php">BankSystem</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -43,7 +43,7 @@ $session=new Session;
                
              
                 <li class="nav-item">
-                <a class="nav-link text-white" href="All-Customers.php">View All Customers</a>
+                <a class="nav-link text-white" href="index.php">View All Customers</a>
                 </li>
                 <li class="nav-item">
                 <a class="nav-link text-white" href="add-customer.php">Add Customer</a>

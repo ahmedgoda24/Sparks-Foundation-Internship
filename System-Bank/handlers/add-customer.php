@@ -20,7 +20,7 @@ if($request->postHas('submit'))
             
             $user->insert("name,email,balance","'$name','$email','$balance'");
             $session->set('success','Customer Added Successfully');
-            header("location:../All-Customers.php");
+            header("location:../index.php");
         }else{
             $session->set('error','yous should write all field');
             header("location:../add-customer.php");
